@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.sslocal" name="Shadowsocks" version="0.0.1" provider-name="netcon">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension point="xbmc.service" library="main.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Shadowsocks Client</summary>
+        <description></description>
+        <language></language>
+        <platform>linux</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>conw.net</website>
+        <email>netcon@live.com</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
